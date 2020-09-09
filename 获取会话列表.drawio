@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-09T06:26:20.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="SYgKr1Jy_dQBwIJDjcC3" version="13.6.9" type="github" pages="10">
-  <diagram id="nPYzyrIdAbnrIjr8xJaN" name="第 1 页">
-    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2020-09-09T06:33:51.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="HoMBGUWFWMKxul2FGHbd" version="13.6.9" type="github" pages="10">
+  <diagram id="nPYzyrIdAbnrIjr8xJaN" name="flow-get-conversation-list">
+    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,8 +34,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="NuPUapyEnvxrt2EGs-Q2" name="第 2 页">
-    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="NuPUapyEnvxrt2EGs-Q2" name="flow-receive-message">
+    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LTetxvWuVL2evpaL5gyn-0" />
         <mxCell id="LTetxvWuVL2evpaL5gyn-1" parent="LTetxvWuVL2evpaL5gyn-0" />
@@ -207,7 +207,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XJTe7jNxSqgPXU6tAhRk" name="第 3 页">
+  <diagram id="XJTe7jNxSqgPXU6tAhRk" name="flow-remove-conversation">
     <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rE4_gjYotGKpZaY-Yc2o-0" />
@@ -320,7 +320,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="anDjt-cVMbvLSITDXmGc" name="第 4 页">
+  <diagram id="anDjt-cVMbvLSITDXmGc" name="flow-clear-conversation-list">
     <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BB22waqgWuRovpjMHwXw-0" />
@@ -433,8 +433,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="YzC1TsabWTxxif9H-X9Y" name="第 5 页">
-    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="YzC1TsabWTxxif9H-X9Y" name="flow-sync-conversation-list">
+    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="w-qU3OXX-Ypgw5u8Q7LO-0" />
         <mxCell id="w-qU3OXX-Ypgw5u8Q7LO-1" parent="w-qU3OXX-Ypgw5u8Q7LO-0" />
@@ -734,7 +734,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="VyIIPJUKu6BncFR02hOZ" name="第 6 页">
+  <diagram id="VyIIPJUKu6BncFR02hOZ" name="flow-send-message">
     <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6d9whDULNgejXOF2lafT-0" />
@@ -934,7 +934,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="urVksAyVh0UB2DEPLZnp" name="第 7 页">
+  <diagram id="urVksAyVh0UB2DEPLZnp" name="flow-receive-message">
     <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0nQ80Q7A-DT45ZFjZC4e-0" />
@@ -1217,7 +1217,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="0kHlHfy9yVkNUNtopV6X" name="第 8 页">
+  <diagram id="0kHlHfy9yVkNUNtopV6X" name="flow-remove-conversation-message">
     <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NZhF7HEwP_6gxffFhk0L-0" />
@@ -1328,7 +1328,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="isyPrniZ6VhlSmda6N2k" name="第 9 页">
+  <diagram id="isyPrniZ6VhlSmda6N2k" name="flow-clear-conversation-message-list">
     <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uPpPr9o7bS6ihU6kQJl8-0" />
@@ -1408,7 +1408,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="X40SpipfZ5YA2flCGHDY" name="第 10 页">
+  <diagram id="X40SpipfZ5YA2flCGHDY" name="flow-sync-conversation-message-list">
     <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="i3vsAo_7u0p2vXTMWl5m-0" />
