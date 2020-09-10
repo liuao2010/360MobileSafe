@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-10T10:25:46.941Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="s2Q1DRw4rXYUxPr5Z-eL" version="13.6.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-09-10T12:14:34.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="zOfBkV7s5AOPX5AQLhU5" version="13.6.9" type="github" pages="11">
   <diagram id="nPYzyrIdAbnrIjr8xJaN" name="flow-get-conversation-list">
-    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NuPUapyEnvxrt2EGs-Q2" name="flow-add-conversation">
-    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LTetxvWuVL2evpaL5gyn-0" />
         <mxCell id="LTetxvWuVL2evpaL5gyn-1" parent="LTetxvWuVL2evpaL5gyn-0" />
@@ -131,7 +131,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XJTe7jNxSqgPXU6tAhRk" name="flow-remove-conversation">
-    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rE4_gjYotGKpZaY-Yc2o-0" />
         <mxCell id="rE4_gjYotGKpZaY-Yc2o-1" parent="rE4_gjYotGKpZaY-Yc2o-0" />
@@ -141,7 +141,7 @@
         <mxCell id="r084x7ZZohxQAhlmeKN9-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=1;" parent="rE4_gjYotGKpZaY-Yc2o-1" vertex="1">
           <mxGeometry x="260" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0F2n1UlVkaEoKhjdySVo-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rE4_gjYotGKpZaY-Yc2o-1" source="r084x7ZZohxQAhlmeKN9-2" target="r084x7ZZohxQAhlmeKN9-10">
+        <mxCell id="3wO2TbVoYAOTDRGr0txa-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rE4_gjYotGKpZaY-Yc2o-1" source="r084x7ZZohxQAhlmeKN9-2" target="r084x7ZZohxQAhlmeKN9-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r084x7ZZohxQAhlmeKN9-2" value="接受移除会话接口调用" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="rE4_gjYotGKpZaY-Yc2o-1" vertex="1">
@@ -153,26 +153,26 @@
         <mxCell id="r084x7ZZohxQAhlmeKN9-9" value="移除会话列表中的该会话" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="rE4_gjYotGKpZaY-Yc2o-1" vertex="1">
           <mxGeometry x="260" y="380" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="r084x7ZZohxQAhlmeKN9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="rE4_gjYotGKpZaY-Yc2o-1" source="r084x7ZZohxQAhlmeKN9-10" target="r084x7ZZohxQAhlmeKN9-11" edge="1">
+        <mxCell id="3wO2TbVoYAOTDRGr0txa-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rE4_gjYotGKpZaY-Yc2o-1" source="r084x7ZZohxQAhlmeKN9-10" target="r084x7ZZohxQAhlmeKN9-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r084x7ZZohxQAhlmeKN9-10" value="删除本地存储的该会话" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="rE4_gjYotGKpZaY-Yc2o-1" vertex="1">
-          <mxGeometry x="260" y="200" width="100" height="40" as="geometry" />
+          <mxGeometry x="260" y="300" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pbzm1iyH_fwmvpLrFUTp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rE4_gjYotGKpZaY-Yc2o-1" source="r084x7ZZohxQAhlmeKN9-11" target="r084x7ZZohxQAhlmeKN9-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0F2n1UlVkaEoKhjdySVo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rE4_gjYotGKpZaY-Yc2o-1" source="r084x7ZZohxQAhlmeKN9-11" target="r084x7ZZohxQAhlmeKN9-9">
+        <mxCell id="3wO2TbVoYAOTDRGr0txa-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rE4_gjYotGKpZaY-Yc2o-1" source="r084x7ZZohxQAhlmeKN9-11" target="r084x7ZZohxQAhlmeKN9-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r084x7ZZohxQAhlmeKN9-11" value="保留消息？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;" parent="rE4_gjYotGKpZaY-Yc2o-1" vertex="1">
-          <mxGeometry x="270" y="280" width="80" height="60" as="geometry" />
+          <mxGeometry x="270" y="200" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0F2n1UlVkaEoKhjdySVo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rE4_gjYotGKpZaY-Yc2o-1" source="r084x7ZZohxQAhlmeKN9-12" target="r084x7ZZohxQAhlmeKN9-9">
+        <mxCell id="3wO2TbVoYAOTDRGr0txa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rE4_gjYotGKpZaY-Yc2o-1" source="r084x7ZZohxQAhlmeKN9-12" target="r084x7ZZohxQAhlmeKN9-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r084x7ZZohxQAhlmeKN9-12" value="删除本地存储的该会话所有消息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="rE4_gjYotGKpZaY-Yc2o-1" vertex="1">
-          <mxGeometry x="400" y="290" width="100" height="40" as="geometry" />
+          <mxGeometry x="400" y="210" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r084x7ZZohxQAhlmeKN9-13" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;" parent="rE4_gjYotGKpZaY-Yc2o-1" vertex="1">
           <mxGeometry x="260" y="460" width="100" height="40" as="geometry" />
@@ -181,7 +181,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="anDjt-cVMbvLSITDXmGc" name="flow-clear-conversation-list">
-    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BB22waqgWuRovpjMHwXw-0" />
         <mxCell id="BB22waqgWuRovpjMHwXw-1" parent="BB22waqgWuRovpjMHwXw-0" />
@@ -231,7 +231,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YzC1TsabWTxxif9H-X9Y" name="flow-sync-conversation-list">
-    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="w-qU3OXX-Ypgw5u8Q7LO-0" />
         <mxCell id="w-qU3OXX-Ypgw5u8Q7LO-1" parent="w-qU3OXX-Ypgw5u8Q7LO-0" />
@@ -532,7 +532,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VyIIPJUKu6BncFR02hOZ" name="flow-send-message">
-    <mxGraphModel dx="652" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6d9whDULNgejXOF2lafT-0" />
         <mxCell id="6d9whDULNgejXOF2lafT-1" parent="6d9whDULNgejXOF2lafT-0" />
@@ -742,7 +742,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="urVksAyVh0UB2DEPLZnp" name="flow-receive-message">
-    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0nQ80Q7A-DT45ZFjZC4e-0" />
         <mxCell id="0nQ80Q7A-DT45ZFjZC4e-1" parent="0nQ80Q7A-DT45ZFjZC4e-0" />
@@ -964,7 +964,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0kHlHfy9yVkNUNtopV6X" name="flow-remove-conversation-message">
-    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NZhF7HEwP_6gxffFhk0L-0" />
         <mxCell id="NZhF7HEwP_6gxffFhk0L-1" parent="NZhF7HEwP_6gxffFhk0L-0" />
@@ -1020,7 +1020,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="isyPrniZ6VhlSmda6N2k" name="flow-clear-conversation-message-list">
-    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uPpPr9o7bS6ihU6kQJl8-0" />
         <mxCell id="uPpPr9o7bS6ihU6kQJl8-1" parent="uPpPr9o7bS6ihU6kQJl8-0" />
@@ -1057,7 +1057,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X40SpipfZ5YA2flCGHDY" name="flow-sync-conversation-message-list">
-    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="i3vsAo_7u0p2vXTMWl5m-0" />
         <mxCell id="i3vsAo_7u0p2vXTMWl5m-1" parent="i3vsAo_7u0p2vXTMWl5m-0" />
@@ -1227,7 +1227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="crUCX-Luxh7kUVEPPOle" name="flow-get-conversation-message-list">
-    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jnI1lrbiJ4AkUTdwMIxc-0" />
         <mxCell id="jnI1lrbiJ4AkUTdwMIxc-1" parent="jnI1lrbiJ4AkUTdwMIxc-0" />
