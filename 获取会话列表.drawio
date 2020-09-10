@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-10T09:54:20.224Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="IbTWCKX5EbjccCYM_GRz" version="13.6.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-09-10T10:06:47.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="4oDVKHYqiWWgRyMS52fj" version="13.6.9" type="github" pages="11">
   <diagram id="nPYzyrIdAbnrIjr8xJaN" name="flow-get-conversation-list">
     <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -233,7 +233,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YzC1TsabWTxxif9H-X9Y" name="flow-sync-conversation-list">
-    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="w-qU3OXX-Ypgw5u8Q7LO-0" />
         <mxCell id="w-qU3OXX-Ypgw5u8Q7LO-1" parent="w-qU3OXX-Ypgw5u8Q7LO-0" />
@@ -534,7 +534,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VyIIPJUKu6BncFR02hOZ" name="flow-send-message">
-    <mxGraphModel dx="946" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6d9whDULNgejXOF2lafT-0" />
         <mxCell id="6d9whDULNgejXOF2lafT-1" parent="6d9whDULNgejXOF2lafT-0" />
@@ -547,7 +547,7 @@
         <mxCell id="yi34k2DRdPw4Df2CXUfp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6d9whDULNgejXOF2lafT-1" source="6d9whDULNgejXOF2lafT-3" target="_tdYba55W5OwdKsjAiF_-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6d9whDULNgejXOF2lafT-3" value="接受发送消息接口调用" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="6d9whDULNgejXOF2lafT-1" vertex="1">
+        <mxCell id="6d9whDULNgejXOF2lafT-3" value="获取会话" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="6d9whDULNgejXOF2lafT-1" vertex="1">
           <mxGeometry x="250" y="120" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yi34k2DRdPw4Df2CXUfp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6d9whDULNgejXOF2lafT-1" source="_tdYba55W5OwdKsjAiF_-0" target="_tdYba55W5OwdKsjAiF_-1" edge="1">
@@ -623,8 +623,8 @@
         <mxCell id="yi34k2DRdPw4Df2CXUfp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="6d9whDULNgejXOF2lafT-1" source="yi34k2DRdPw4Df2CXUfp-5" target="yi34k2DRdPw4Df2CXUfp-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="450" y="330" />
-              <mxPoint x="450" y="450" />
+              <mxPoint x="440" y="330" />
+              <mxPoint x="440" y="450" />
               <mxPoint x="240" y="450" />
             </Array>
           </mxGeometry>
@@ -658,6 +658,16 @@
         </mxCell>
         <mxCell id="yi34k2DRdPw4Df2CXUfp-29" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="6d9whDULNgejXOF2lafT-1" vertex="1">
           <mxGeometry x="670" y="430" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pCoI3ZaNJW1ZbaC6g8_K-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6d9whDULNgejXOF2lafT-1" source="yi34k2DRdPw4Df2CXUfp-30" target="yi34k2DRdPw4Df2CXUfp-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="540" />
+              <mxPoint x="460" y="540" />
+              <mxPoint x="460" y="380" />
+              <mxPoint x="520" y="380" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="yi34k2DRdPw4Df2CXUfp-30" value="消息重发流程" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" parent="6d9whDULNgejXOF2lafT-1" vertex="1">
           <mxGeometry x="190" y="480" width="100" height="40" as="geometry" />
